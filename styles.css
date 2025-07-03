@@ -40,7 +40,6 @@
 }
 
 main section{
-  background-color: beige;
   margin-bottom: 130px;
 }
 
@@ -172,6 +171,30 @@ header{
   border: none;
 }
 
+/* Our Donate Plan */
+.dp-cards-container{
+  display: flex;
+  gap: 24px;
+}
+
+.dp-card-container{
+  border-radius: 5px;
+  background: rgba(79, 157, 166, 0.1);
+  padding: 56px 23px;
+}
+
+#dpcc-1{
+  background-color: rgba(79, 157, 166, 0.1);
+}
+#dpcc-2{
+  background-color: rgba(255, 89, 89, 0.1);
+}
+#dpcc-3{
+  background-color: rgb(255, 244, 214);
+}
+
+
+
 
 
 
@@ -229,6 +252,11 @@ header{
   justify-content: center;
 }
 
+.dp-cards-container{
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
 
 }
 
@@ -264,6 +292,12 @@ header{
 .donation-amount-container{
   flex-wrap: wrap;
 }
+
+.dp-cards-container{
+  padding: 80px;
+  flex-wrap: wrap;
+}
+
 
 }
 
