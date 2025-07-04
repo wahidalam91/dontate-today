@@ -154,7 +154,7 @@ header{
   color: rgb(255, 89, 89);
 }
 
-.other-amount{
+.other-amount{ 
   max-width: 80%;
   margin: 0 auto;
   color: rgb(179, 179, 179);
@@ -239,6 +239,36 @@ header{
 .part2{
   flex-direction: row-reverse;
 }
+/* Get Update  */
+
+.form-container{
+  background: rgb(255, 244, 214);
+  padding: 76px 188px;
+  border-radius: 5px;
+  display: flex;
+}
+
+input[type="email"]{
+  width: 275px;
+  height: 48px;
+  padding: 16px 12px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 400;
+  border: none;
+  line-height: 24px;
+}
+
+.form-container .btn-primary{
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 400;
+  border: none;
+  line-height: 24px;
+  margin-left: -10px;
+}
+
 
 
 
@@ -329,12 +359,14 @@ header{
   width: 100%;
 }
 
-.text .section-title{
+.text .section-title,
+.get-update .section-title{
   font-size: 32px;
   line-height: 36px;
 }
 
-.text .description{
+.text .description,
+.get-update .description{
   font-size: 14px;
   line-height: 18px;
 }
@@ -356,6 +388,38 @@ header{
   flex-direction: column-reverse;
 }
 
+
+
+.form-container{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+input[type="email"]{
+  max-width: 50%;
+  height: 20px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 400;
+  border: none;
+  line-height: 12px;
+}
+
+.form-container .btn-primary{
+    max-width: 50%;
+  height: 20px;
+  padding: 5px 8px;
+  border-radius: 0px 5px 5px 0px;
+  font-size: 12px;
+  font-weight: 400;
+  border: none;
+  line-height: 12px;
+  margin-left: -10px;
+}
 
 
 
@@ -452,6 +516,38 @@ header{
 
 .part2{
   flex-direction: column-reverse;
+}
+
+.form-container{
+  padding: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+input[type="email"]{
+  max-width: 50%;
+  height: 40px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 400;
+  border: none;
+  line-height: 12px;
+}
+
+.form-container .btn-primary{
+    max-width: 50%;
+  height: 40px;
+  padding: 5px 8px;
+  border-radius: 0px 5px 5px 0px;
+  font-size: 12px;
+  font-weight: 400;
+  border: none;
+  line-height: 12px;
+  margin-left: -10px;
+  margin-top: -0.5px;
 }
 
 
