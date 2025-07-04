@@ -47,6 +47,7 @@ main section{
   margin: 0 auto;
   max-width: 960px;
   height: 600px;
+  margin-bottom: 130px;
 }
 
 .text-container{
@@ -66,6 +67,7 @@ main section{
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-weight: 600;
+  border: none;
   line-height: 24px;
 }
 
@@ -167,9 +169,6 @@ header{
   margin-bottom: 10px;
 }
 
-.button-container .btn-primary{
-  border: none;
-}
 
 /* Our Donate Plan */
 .dp-cards-container{
@@ -193,6 +192,54 @@ header{
   background-color: rgb(255, 244, 214);
 }
 
+/* Their lives depend... */
+.their-lives{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;  
+}
+
+.their-lives .section-title,
+.their-lives .description{
+  text-align: left;
+  margin: 0;
+}
+
+.their-lives .button-container{
+  text-align: left;
+  margin-top: 20px;
+}
+
+.part1,
+.part2{
+  display: flex;
+  justify-content: start;
+  gap: 70px;  
+}
+
+.text{
+  padding: 30px 0;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+}
+
+.their-lives .image{
+  width: 50%;
+  height: 450px;
+}
+
+.image > img{
+  width: 100%;
+  height: 100%;
+}
+
+.part2{
+  flex-direction: row-reverse;
+}
+
 
 
 
@@ -211,6 +258,10 @@ header{
   
   padding: 120px 20px;
   
+}
+
+.container{
+  margin-bottom: 20px;
 }
 
 .banner-title{
@@ -257,6 +308,56 @@ header{
   flex-wrap: wrap;
 }
 
+.their-lives .container{
+  margin-bottom: 10px;
+}
+
+.their-lives .section-title,
+.their-lives .description,
+.their-lives .button-container{
+  text-align: center;
+}
+
+.part1,
+.part2{
+  flex-direction: column;
+  gap: 20px;  
+}
+
+.text{
+  padding: 20px;
+  width: 100%;
+}
+
+.text .section-title{
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.text .description{
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.their-lives .image{
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.image > img{
+  width: 75%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.part2{
+  flex-direction: column-reverse;
+}
+
+
+
 
 }
 
@@ -265,6 +366,10 @@ header{
   max-width: 100%;
   height: 100%;
   padding: 180px 40px ;
+}
+
+.container{
+  margin-bottom: 20px;
 }
 
 .banner-title{
@@ -297,6 +402,59 @@ header{
   padding: 80px;
   flex-wrap: wrap;
 }
+
+.their-lives .container{
+  margin-bottom: 10px;
+}
+
+.their-lives .section-title,
+.their-lives .description,
+.their-lives .button-container{
+  text-align: center;
+}
+
+.part1,
+.part2{
+  flex-direction: column;
+  gap: 20px;  
+}
+
+.text{
+  padding: 20px;
+  width: 100%;
+}
+
+.text .section-title{
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.text .description{
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.their-lives .image{
+  text-align: center;
+  width: 100%;
+  height: 400px;
+  
+  padding: 10px;
+}
+
+
+.image > img{
+  width: 60%;
+  height: 100%;
+  
+  border-radius: 10px;
+}
+
+.part2{
+  flex-direction: column-reverse;
+}
+
+
 
 
 }
